@@ -1,15 +1,12 @@
 {
-  "name": "fraz-session-id",
+  "name": "fraz-session-generator",
   "version": "1.0.0",
-  "description": "Personal Session Generator",
+  "description": "FRAZ-KING-MD Session Generator",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "latest",
-    "pino": "latest",
-    "qrcode-terminal": "latest",
-    "express": "latest"
+    "express": "^4.18.2"
   }
 }
